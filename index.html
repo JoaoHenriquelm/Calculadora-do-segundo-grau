@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Equação do segundo grau</title>
+</head>
+<body>
+    <h1>Cálculo de equação do segundo grau</h1>
+
+    <main>
+        <div class="block">
+            <span class="text">A: </span>
+            <input type="number" name="A-number" id="A-number">
+        </div>
+        <div class="block">
+            <span class="text">B: </span>
+            <input type="number" name="B-number" id="B-number">
+        </div>
+        <div class="block">
+            <span class="text">C: </span>
+            <input type="number" name="C-number" id="C-number">
+        </div>
+    </main>
+
+    <input type="button" value="CALCULAR" onclick="calcular()">
+
+    <div id="res"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
